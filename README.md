@@ -38,14 +38,20 @@ AI-Sales-Prediction-Dashboard/
 ├── requirements.txt
 └── README.md
 AI-Sales-Prediction-Dashboard
-...Create Virtual Environment (Recommended)
+
+1...Create Virtual Environment (Recommended)
 python -m venv venv
-....Activate it:
+
+2....Activate it:
 venv\Scripts\activate
-... Install Dependencies
+
+3... Install Dependencies
 pip install -r requirements.txt
-...Train the Model
+
+4...Train the Model
 python train_model.py
+
+
 ->This will generate: model.h5
                       scaler.save
 
@@ -62,5 +68,8 @@ Model comparison (ARIMA vs LSTM)
 
 Deployment on Streamlit Cloud
 
+Based on the sales_data.csv dataset the prediction is done. 
+
 🎯 Resume Description
+
 Developed an AI-powered sales forecasting dashboard using LSTM deep learning model and Streamlit to predict future revenue trends and visualize business insights.
